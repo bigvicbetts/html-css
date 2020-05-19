@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Victor Betts Bio Page</title>
 </head>
 <body>
-    
+    <header>
+        <span >VICTOR</span>
+        &#9733;
+        <img src="images/Profile3.png" alt="Victor Betts profile picture" width="200" height=auto>
+        &#9733;
+        <span >BETTS</span>
+    </header>
+        <nav>
+            &#9733; <a href="index.html">Bio Page</a> &#9733; <a href="gallery.html">Favorites</a> &#9733; 
+            <a href="contact.html">Contact</a> &#9733;
+        </nav>
+    <main>
+        <form method="POST" action="mailto:v_betts22@hotmail.com">
+            <label for="Name">Name: </label>
+            <input type="text" name="Name" id="Name">
+            <label for="Phone">Phone Number: </label>
+            <input type="tel" name="Phone" id="Phone">
+            Gender: 
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Subject">Subject: </label>
+            <input type="text" name="Subject" id="Subject">
+            <label for="Message">Message: </label>
+            <textarea rows="10" cols="30" name="comment"></textarea>
+            <input type="submit" value="Send E-mail">
+        </form>
+    </main>
 </body>
 </html>
