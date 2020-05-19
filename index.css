@@ -1,0 +1,22 @@
+body {
+    font-size: 100%;
+}
+
+/*Header Styles*/
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    -webkit-text-fill-color: #002244;
+    -webkit-text-stroke-color: #869397;
+    -webkit-text-stroke-width: .02em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 7em;
+    padding: .1em;
+}
+
+header img {
+    max-width: 150px;
+}
