@@ -20,13 +20,71 @@ header {
 /*Nav Styles*/
 nav {
     display: flex;
-    flex-flow: space-around;
+    flex-flow: row nowrap;
     align-items: center;
+    justify-content: space-around;
     line-height: 2em;
     color: white;
-    font-family: 'Oswald', sans-serif;
     font-size: 2em;
     background-color: #002244;
     border: .5em solid #002244;
 }
 
+nav a {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    transition: font-size .5s, border-bottom .5s;
+    transition-timing-function: linear;
+}
+
+nav a:hover {
+    font-size: 1.5em;
+    border-bottom: .1em solid white;
+}
+
+/*Main Styles*/
+main {
+    margin: 0 5%;
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+/*Gallery Styles*/
+.MovieRow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.Movie {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 450px;
+    margin: 1em;
+}
+
+.Movie div {
+    font-size: .8em;
+    display: block;
+    padding: 1em;
+}
+
+.Movie div h1 {
+    font-size: 1.5em;
+    line-height: 1em;
+    text-align: center;
+}
+
+.Movie img {
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.Movie img:hover {
+    opacity: 0;
+}
