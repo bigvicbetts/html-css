@@ -77,7 +77,8 @@ main h1 {
 }
 
 .Movie div {
-    font-size: .8em;
+    font-size: .7em;
+    line-height: 1.2em;
     display: block;
     padding: 1em;
 }
