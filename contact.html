@@ -24,18 +24,25 @@
             <input type="text" name="Name" id="Name">
             <label for="Phone">Phone Number: </label>
             <input type="tel" name="Phone" id="Phone">
-            <div>
             Gender: 
-            <label for="Male">Male</label>
+                <div>
+                    <div>
+            <label for="Male">Male:</label>
             <input type="radio" id="Male" name="Gender" value="Male">
-            <label for="Female">Female</label>
+                    </div>
+                    <div>
+            <label for="Female">Female:</label>
             <input type="radio" id="Female" name="Gender" value="Female">
-            </div>
+                    </div>
+                </div>
             <label for="Subject">Subject: </label>
             <input type="text" name="Subject" id="Subject">
             <label for="Message">Message: </label>
             <textarea rows="10" cols="30" name="comment"></textarea>
+                <div id="buttons">
             <input type="submit" value="Send E-mail">
+            <input type="reset" value="Clear Form">
+                </div>
         </form>
     </main>
 </body>
