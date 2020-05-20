@@ -49,10 +49,16 @@ nav a:hover {
 
 /*Main Styles*/
 main {
+    font-family: sans-serif;
     margin: 0 10%;
     text-align: justify;
     font-size: 1.5em;
     line-height: 1.5em;
+}
+
+main h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 
 /*Gallery Page Styles*/
